@@ -40,6 +40,21 @@ Deepseek_V4_Pro_0813Params = TypedDict(
 )
 setattr(Deepseek_V4_Pro_0813Params, "__pydantic_config__", _PARAMS_CONFIG)
 
+Gemma_4_31b_ItParams = TypedDict(
+    "Gemma_4_31b_ItParams",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Gemma_4_31b_ItParams, "__pydantic_config__", _PARAMS_CONFIG)
+
 Gliner_PiiParams = TypedDict(
     "Gliner_PiiParams",
     {
@@ -51,6 +66,36 @@ Gliner_PiiParams = TypedDict(
     total=False,
 )
 setattr(Gliner_PiiParams, "__pydantic_config__", _PARAMS_CONFIG)
+
+Gpt_Oss_120bParams = TypedDict(
+    "Gpt_Oss_120bParams",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Gpt_Oss_120bParams, "__pydantic_config__", _PARAMS_CONFIG)
+
+Gpt_Oss_20bParams = TypedDict(
+    "Gpt_Oss_20bParams",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Gpt_Oss_20bParams, "__pydantic_config__", _PARAMS_CONFIG)
 
 Kimi_K3Params = TypedDict(
     "Kimi_K3Params",
@@ -66,6 +111,21 @@ Kimi_K3Params = TypedDict(
     total=False,
 )
 setattr(Kimi_K3Params, "__pydantic_config__", _PARAMS_CONFIG)
+
+Laguna_Xs_2_1Params = TypedDict(
+    "Laguna_Xs_2_1Params",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Laguna_Xs_2_1Params, "__pydantic_config__", _PARAMS_CONFIG)
 
 Llama_3_1_Nemoguard_8b_Topic_ControlParams = TypedDict(
     "Llama_3_1_Nemoguard_8b_Topic_ControlParams",
@@ -149,6 +209,36 @@ Llama_3_3_Nemotron_Super_49b_V1_5Params = TypedDict(
     total=False,
 )
 setattr(Llama_3_3_Nemotron_Super_49b_V1_5Params, "__pydantic_config__", _PARAMS_CONFIG)
+
+Minimax_M3Params = TypedDict(
+    "Minimax_M3Params",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Minimax_M3Params, "__pydantic_config__", _PARAMS_CONFIG)
+
+Muse_Glimmer_30bParams = TypedDict(
+    "Muse_Glimmer_30bParams",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Muse_Glimmer_30bParams, "__pydantic_config__", _PARAMS_CONFIG)
 
 Nemoguard_Jailbreak_DetectParams = TypedDict(
     "Nemoguard_Jailbreak_DetectParams",
@@ -272,14 +362,20 @@ setattr(Usdcode_Llama_3_1_70b_InstructParams, "__pydantic_config__", _PARAMS_CON
 __all__ = [
     "Deepseek_V4_Flash_0731Params",
     "Deepseek_V4_Pro_0813Params",
+    "Gemma_4_31b_ItParams",
     "Gliner_PiiParams",
+    "Gpt_Oss_120bParams",
+    "Gpt_Oss_20bParams",
     "Kimi_K3Params",
+    "Laguna_Xs_2_1Params",
     "Llama_3_1_Nemoguard_8b_Topic_ControlParams",
     "Llama_3_1_Nemotron_Nano_8b_V1Params",
     "Llama_3_1_Nemotron_Safety_Guard_8b_V3Params",
     "Llama_3_1_Nemotron_Ultra_253b_V1Params",
     "Llama_3_3_Nemotron_Super_49b_V1Params",
     "Llama_3_3_Nemotron_Super_49b_V1_5Params",
+    "Minimax_M3Params",
+    "Muse_Glimmer_30bParams",
     "Nemoguard_Jailbreak_DetectParams",
     "Nemotron_3_Nano_30b_A3bParams",
     "Nemotron_3_Super_120b_A12bParams",
