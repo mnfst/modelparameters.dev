@@ -1,0 +1,48 @@
+models/alibaba/kimi-k3.yaml
+  h_4314c622e2d856 1-55
+models/nvidia/gemma-4-31b-it.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/gpt-oss-120b.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/gpt-oss-20b.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/laguna-xs-2.1.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/minimax-m3.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/muse-glimmer-30b.yaml
+  h_4314c622e2d856 1-65
+models/openai/gpt-6-astra.yaml
+  h_4314c622e2d856 1-60
+packages/modelparams-python/src/modelparams/_generated/catalog.json
+  h_4314c622e2d856 610-685,22247-22333,22390-22391,22477-22478,22486,22489,22498,22509,22511-22512,22539-22550,22564-22565,22651-22652,22738,22746,22749,22758,22769,22771,22811,22842,22845,22897-23356,25852-25930
+packages/modelparams-python/src/modelparams/_generated/model_ids.py
+  h_4314c622e2d856 15,276,278-279,281,288-289,343,429,690,692-693,695,702-703,757
+packages/modelparams-python/src/modelparams/_generated/registry.py
+  h_4314c622e2d856 40,301,303-304,306,313-314,368
+packages/modelparams-python/src/modelparams/types/alibaba.py
+  h_4314c622e2d856 125-138,612
+packages/modelparams-python/src/modelparams/types/nvidia.py
+  h_4314c622e2d856 43-57,70-99,115-129,213-242,365,367-368,370,377-378
+packages/modelparams-python/src/modelparams/types/openai.py
+  h_4314c622e2d856 482-495,663
+packages/modelparams/src/generated/data.ts
+  h_4314c622e2d856 615-690,22252-22338,22395-22396,22482-22483,22491,22494,22503,22514,22516-22517,22544-22555,22569-22570,22656-22657,22743,22751,22754,22763,22774,22776,22816,22847,22850,22902-23361,25861-25939
+packages/modelparams/src/generated/defaults.ts
+  h_4314c622e2d856 40-43,1319-1326,1333-1348,1357-1364,1407-1422,1678-1683
+packages/modelparams/src/generated/model-ids.ts
+  h_4314c622e2d856 13,274,276-277,279,286-287,341
+packages/modelparams/src/generated/params-by-id.ts
+  h_4314c622e2d856 74-81,2207-2215,2222-2239,2249-2257,2305-2322,2591-2598
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "afac0ab0ff554a635042bd70128d8afc393cb6c6",
+  "prompts": {},
+  "humans": {
+    "h_4314c622e2d856": {
+      "author": "Guillaume Gay <guillaume.gay@protonmail.com>"
+    }
+  }
+}
