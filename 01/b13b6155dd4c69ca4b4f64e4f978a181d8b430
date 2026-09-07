@@ -1,0 +1,52 @@
+models/alibaba/kimi-k3.yaml
+  h_4314c622e2d856 1-55
+models/groq/qwen3.8-27b.yaml
+  h_4314c622e2d856 1-91
+models/nvidia/deepseek-v4-pro-0813.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/gemma-4-31b-it.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/gpt-oss-120b.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/gpt-oss-20b.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/minimax-m3.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/muse-glimmer-30b.yaml
+  h_4314c622e2d856 1-65
+models/openai/gpt-6-astra.yaml
+  h_4314c622e2d856 1-60
+packages/modelparams-python/src/modelparams/_generated/catalog.json
+  h_4314c622e2d856 610-685,17359-17479,22164-22165,22251-22252,22260,22263-22662,23084-23257,25765-25843
+packages/modelparams-python/src/modelparams/_generated/model_ids.py
+  h_4314c622e2d856 15,219,275-276,278-279,287-288,342,428,632,688-689,691-692,700-701,755
+packages/modelparams-python/src/modelparams/_generated/registry.py
+  h_4314c622e2d856 40,244,300-301,303-304,312-313,367
+packages/modelparams-python/src/modelparams/types/alibaba.py
+  h_4314c622e2d856 125-138,612
+packages/modelparams-python/src/modelparams/types/groq.py
+  h_4314c622e2d856 103-120,127
+packages/modelparams-python/src/modelparams/types/nvidia.py
+  h_4314c622e2d856 28-57,70-99,198-227,349-350,352-353,361-362
+packages/modelparams-python/src/modelparams/types/openai.py
+  h_4314c622e2d856 482-495,663
+packages/modelparams/src/generated/data.ts
+  h_4314c622e2d856 615-690,17364-17484,22169-22170,22256-22257,22265,22268-22667,23089-23262,25774-25852
+packages/modelparams/src/generated/defaults.ts
+  h_4314c622e2d856 40-43,975-982,1311-1326,1333-1348,1399-1414,1670-1675
+packages/modelparams/src/generated/model-ids.ts
+  h_4314c622e2d856 13,217,273-274,276-277,285-286,340
+packages/modelparams/src/generated/params-by-id.ts
+  h_4314c622e2d856 74-81,1697-1708,2198-2215,2222-2239,2296-2313,2582-2589
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "01b13b6155dd4c69ca4b4f64e4f978a181d8b430",
+  "prompts": {},
+  "humans": {
+    "h_4314c622e2d856": {
+      "author": "Guillaume Gay <guillaume.gay@protonmail.com>"
+    }
+  }
+}
