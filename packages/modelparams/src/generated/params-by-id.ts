@@ -71,6 +71,14 @@ export type ParamsById = {
     "extra_body.enable_thinking": boolean;
     "extra_body.thinking_budget": number;
   };
+  "alibaba/kimi-k3": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    "extra_body.top_k": number;
+    "extra_body.enable_thinking": boolean;
+    "extra_body.thinking_budget": number;
+  };
   "alibaba/qwen-flash": {
     max_tokens: number;
     temperature: number;
@@ -304,6 +312,14 @@ export type ParamsById = {
     "extra_body.thinking_budget": number;
   };
   "alibaba/qwen3.8-max": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    "extra_body.top_k": number;
+    "extra_body.enable_thinking": boolean;
+    "extra_body.thinking_budget": number;
+  };
+  "alibaba/qwen3.8-max-0902": {
     max_completion_tokens: number;
     temperature: number;
     top_p: number;
@@ -1215,6 +1231,15 @@ export type ParamsById = {
     frequency_penalty: number;
     "response_format.type": "text" | "json_object";
   };
+  "fireworks/glm-5p3-flash": {
+    max_tokens: number;
+    temperature: number;
+    top_p: number;
+    top_k: number;
+    presence_penalty: number;
+    frequency_penalty: number;
+    "response_format.type": "text" | "json_object";
+  };
   "fireworks/gpt-oss-120b": {
     max_tokens: number;
     temperature: number;
@@ -1658,6 +1683,18 @@ export type ParamsById = {
     "response_format.type": "text" | "json_object";
   };
   "groq/qwen3.6-27b": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+    reasoning_effort: "none" | "default";
+    reasoning_format: "hidden" | "raw" | "parsed";
+    "response_format.type": "text" | "json_object";
+  };
+  "groq/qwen3.8-27b": {
     max_completion_tokens: number;
     temperature: number;
     top_p: number;
@@ -2158,6 +2195,15 @@ export type ParamsById = {
     seed: number;
     stop: string;
   };
+  "nvidia/deepseek-v4-pro-0813": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
   "nvidia/gliner-pii": {
     threshold: number;
     chunk_length: number;
@@ -2487,6 +2533,14 @@ export type ParamsById = {
     "reasoning.effort": "none" | "low" | "medium" | "high" | "xhigh" | "max";
     "reasoning.summary": "auto" | "concise" | "detailed";
     "text.verbosity": "low" | "medium" | "high";
+  };
+  "openai/gpt-6-astra": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    reasoning_effort: "low" | "medium" | "high";
+    "response_format.type": "text" | "json_schema";
+    tool_choice: "auto" | "none" | "required";
   };
   "openai/gpt-oss-120b": {
     max_completion_tokens: number;

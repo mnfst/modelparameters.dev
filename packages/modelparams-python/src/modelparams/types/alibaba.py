@@ -122,6 +122,20 @@ Kimi_K2_7_CodeParams = TypedDict(
 )
 setattr(Kimi_K2_7_CodeParams, "__pydantic_config__", _PARAMS_CONFIG)
 
+Kimi_K3Params = TypedDict(
+    "Kimi_K3Params",
+    {
+        "max_completion_tokens": Annotated[int, Field(ge=1)],
+        "temperature": Annotated[float, Field(ge=0, le=1.9)],
+        "top_p": Annotated[float, Field(ge=0, le=1)],
+        "extra_body.top_k": Annotated[int, Field(ge=0)],
+        "extra_body.enable_thinking": bool,
+        "extra_body.thinking_budget": Annotated[int, Field(ge=1)],
+    },
+    total=False,
+)
+setattr(Kimi_K3Params, "__pydantic_config__", _PARAMS_CONFIG)
+
 Qwen_FlashParams = TypedDict(
     "Qwen_FlashParams",
     {
@@ -560,6 +574,20 @@ Qwen3_8_MaxParams = TypedDict(
 )
 setattr(Qwen3_8_MaxParams, "__pydantic_config__", _PARAMS_CONFIG)
 
+Qwen3_8_Max_0902Params = TypedDict(
+    "Qwen3_8_Max_0902Params",
+    {
+        "max_completion_tokens": Annotated[int, Field(ge=1)],
+        "temperature": Annotated[float, Field(ge=0, le=1.9)],
+        "top_p": Annotated[float, Field(ge=0, le=1)],
+        "extra_body.top_k": Annotated[int, Field(ge=0)],
+        "extra_body.enable_thinking": bool,
+        "extra_body.thinking_budget": Annotated[int, Field(ge=1)],
+    },
+    total=False,
+)
+setattr(Qwen3_8_Max_0902Params, "__pydantic_config__", _PARAMS_CONFIG)
+
 Qwq_PlusParams = TypedDict(
     "Qwq_PlusParams",
     {
@@ -581,6 +609,7 @@ __all__ = [
     "Glm_5_1Params",
     "Glm_5_2Params",
     "Kimi_K2_7_CodeParams",
+    "Kimi_K3Params",
     "Qwen_FlashParams",
     "Qwen_MaxParams",
     "Qwen_PlusParams",
@@ -614,5 +643,6 @@ __all__ = [
     "Qwen3_8_27bParams",
     "Qwen3_8_FlashParams",
     "Qwen3_8_MaxParams",
+    "Qwen3_8_Max_0902Params",
     "Qwq_PlusParams",
 ]
