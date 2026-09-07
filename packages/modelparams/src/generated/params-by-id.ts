@@ -2257,6 +2257,15 @@ export type ParamsById = {
     seed: number;
     stop: string;
   };
+  "nvidia/minimax-m3": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
   "nvidia/muse-glimmer-30b": {
     temperature: number;
     top_p: number;
