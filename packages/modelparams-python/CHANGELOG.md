@@ -5,6 +5,39 @@ prepared, and describe the catalog changes a version ships. Versions published
 before this file existed are listed under
 [Releases](https://github.com/mnfst/modelparams.dev/releases).
 
+## 0.0.41
+
+### Models added
+
+- `alibaba/kimi-k3`
+- `alibaba/qwen3.8-flash`
+- `alibaba/qwen3.8-max-0902`
+- `anthropic/claude-fable-5-1`
+- `fireworks/deepseek-v4-flash-vision-exp`
+- `fireworks/glm-5p3`
+- `fireworks/glm-5p3-flash`
+- `google/gemini-3.8-flash`
+- `groq/qwen3.8-27b`
+- `mistral/glm-5-2`
+- `nvidia/deepseek-v4-pro-0813`
+- `nvidia/gemma-4-31b-it`
+- `nvidia/gpt-oss-120b`
+- `nvidia/gpt-oss-20b`
+- `nvidia/kimi-k3`
+- `nvidia/laguna-xs-2.1`
+- `nvidia/minimax-m3`
+- `nvidia/muse-glimmer-30b`
+- `openai/gpt-6-astra`
+- `opencode-go/deepseek-v4-flash-vision-exp-subscription`
+- `opencode-go/glm-5.3-flash-subscription`
+- `opencode-go/glm-5.3-subscription`
+- `opencode-go/grok-4.6-subscription`
+- `opencode-go/hy4-preview-subscription`
+- `opencode-go/longcat-2.0-subscription`
+- `opencode-go/qwen3.8-flash-subscription`
+- `opencode-go/qwen3.8-max-subscription`
+- `z-ai/glm-5.3-flash`
+
 ## 0.0.40
 
 ### Models added
