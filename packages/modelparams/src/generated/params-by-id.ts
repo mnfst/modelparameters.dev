@@ -71,6 +71,14 @@ export type ParamsById = {
     "extra_body.enable_thinking": boolean;
     "extra_body.thinking_budget": number;
   };
+  "alibaba/kimi-k3": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    "extra_body.top_k": number;
+    "extra_body.enable_thinking": boolean;
+    "extra_body.thinking_budget": number;
+  };
   "alibaba/qwen-flash": {
     max_tokens: number;
     temperature: number;
@@ -1686,6 +1694,18 @@ export type ParamsById = {
     reasoning_format: "hidden" | "raw" | "parsed";
     "response_format.type": "text" | "json_object";
   };
+  "groq/qwen3.8-27b": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+    reasoning_effort: "none" | "default";
+    reasoning_format: "hidden" | "raw" | "parsed";
+    "response_format.type": "text" | "json_object";
+  };
   "meta/Llama-3.3-70B-Instruct": {
     max_completion_tokens: number;
     temperature: number;
@@ -2175,6 +2195,24 @@ export type ParamsById = {
     seed: number;
     stop: string;
   };
+  "nvidia/deepseek-v4-pro-0813": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
+  "nvidia/gemma-4-31b-it": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
   "nvidia/gliner-pii": {
     threshold: number;
     chunk_length: number;
@@ -2229,6 +2267,24 @@ export type ParamsById = {
     stop: string;
   };
   "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
+  "nvidia/minimax-m3": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
+  "nvidia/muse-glimmer-30b": {
     temperature: number;
     top_p: number;
     max_tokens: number;
@@ -2504,6 +2560,14 @@ export type ParamsById = {
     "reasoning.effort": "none" | "low" | "medium" | "high" | "xhigh" | "max";
     "reasoning.summary": "auto" | "concise" | "detailed";
     "text.verbosity": "low" | "medium" | "high";
+  };
+  "openai/gpt-6-astra": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    reasoning_effort: "low" | "medium" | "high";
+    "response_format.type": "text" | "json_schema";
+    tool_choice: "auto" | "none" | "required";
   };
   "openai/gpt-oss-120b": {
     max_completion_tokens: number;
