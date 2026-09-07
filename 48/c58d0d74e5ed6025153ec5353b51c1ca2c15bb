@@ -1,0 +1,50 @@
+models/alibaba/kimi-k3.yaml
+  h_4314c622e2d856 1-55
+models/groq/qwen3.8-27b.yaml
+  h_4314c622e2d856 1-91
+models/nvidia/deepseek-v4-pro-0813.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/gemma-4-31b-it.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/gpt-oss-120b.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/minimax-m3.yaml
+  h_4314c622e2d856 1-65
+models/nvidia/muse-glimmer-30b.yaml
+  h_4314c622e2d856 1-65
+models/openai/gpt-6-astra.yaml
+  h_4314c622e2d856 1-60
+packages/modelparams-python/src/modelparams/_generated/catalog.json
+  h_4314c622e2d856 610-685,17359-17479,22164-22165,22251-22252,22260,22263-22575,22997-23170,25678-25756
+packages/modelparams-python/src/modelparams/_generated/model_ids.py
+  h_4314c622e2d856 15,219,275-276,278,286-287,341,427,631,687-688,690,698-699,753
+packages/modelparams-python/src/modelparams/_generated/registry.py
+  h_4314c622e2d856 40,244,300-301,303,311-312,366
+packages/modelparams-python/src/modelparams/types/alibaba.py
+  h_4314c622e2d856 125-138,612
+packages/modelparams-python/src/modelparams/types/groq.py
+  h_4314c622e2d856 103-120,127
+packages/modelparams-python/src/modelparams/types/nvidia.py
+  h_4314c622e2d856 28-57,70-84,183-212,334-335,337,345-346
+packages/modelparams-python/src/modelparams/types/openai.py
+  h_4314c622e2d856 482-495,663
+packages/modelparams/src/generated/data.ts
+  h_4314c622e2d856 615-690,17364-17484,22169-22170,22256-22257,22265,22268-22580,23002-23175,25687-25765
+packages/modelparams/src/generated/defaults.ts
+  h_4314c622e2d856 40-43,975-982,1311-1326,1333-1340,1391-1406,1662-1667
+packages/modelparams/src/generated/model-ids.ts
+  h_4314c622e2d856 13,217,273-274,276,284-285,339
+packages/modelparams/src/generated/params-by-id.ts
+  h_4314c622e2d856 74-81,1697-1708,2198-2215,2222-2230,2287-2304,2573-2580
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "48c58d0d74e5ed6025153ec5353b51c1ca2c15bb",
+  "prompts": {},
+  "humans": {
+    "h_4314c622e2d856": {
+      "author": "Guillaume Gay <guillaume.gay@protonmail.com>"
+    }
+  }
+}
