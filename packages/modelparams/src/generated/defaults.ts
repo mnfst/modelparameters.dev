@@ -37,6 +37,10 @@ export const DEFAULTS = {
     "extra_body.top_k": 20,
     "extra_body.enable_thinking": true,
   },
+  "alibaba/kimi-k3": {
+    "extra_body.top_k": 20,
+    "extra_body.enable_thinking": true,
+  },
   "alibaba/qwen-flash": {
     "extra_body.top_k": 20,
     "extra_body.chat_template_kwargs.enable_thinking": true,
@@ -1368,6 +1372,22 @@ export const DEFAULTS = {
     presence_penalty: 0,
     seed: 0,
   },
+  "nvidia/minimax-m3": {
+    temperature: 0.6,
+    top_p: 0.95,
+    max_tokens: 4096,
+    frequency_penalty: 0,
+    presence_penalty: 0,
+    seed: 0,
+  },
+  "nvidia/muse-glimmer-30b": {
+    temperature: 0.6,
+    top_p: 0.95,
+    max_tokens: 4096,
+    frequency_penalty: 0,
+    presence_penalty: 0,
+    seed: 0,
+  },
   "nvidia/nemoguard-jailbreak-detect": {},
   "nvidia/nemotron-3-nano-30b-a3b": {
     temperature: 1,
@@ -1622,6 +1642,12 @@ export const DEFAULTS = {
     "reasoning.effort": "medium",
     "reasoning.summary": "auto",
     "text.verbosity": "medium",
+  },
+  "openai/gpt-6-astra": {
+    temperature: 1,
+    top_p: 1,
+    reasoning_effort: "medium",
+    "response_format.type": "text",
   },
   "openai/gpt-oss-120b": {
     temperature: 1,

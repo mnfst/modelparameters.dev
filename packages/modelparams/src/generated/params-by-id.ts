@@ -71,6 +71,14 @@ export type ParamsById = {
     "extra_body.enable_thinking": boolean;
     "extra_body.thinking_budget": number;
   };
+  "alibaba/kimi-k3": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    "extra_body.top_k": number;
+    "extra_body.enable_thinking": boolean;
+    "extra_body.thinking_budget": number;
+  };
   "alibaba/qwen-flash": {
     max_tokens: number;
     temperature: number;
@@ -2258,6 +2266,24 @@ export type ParamsById = {
     seed: number;
     stop: string;
   };
+  "nvidia/minimax-m3": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
+  "nvidia/muse-glimmer-30b": {
+    temperature: number;
+    top_p: number;
+    max_tokens: number;
+    frequency_penalty: number;
+    presence_penalty: number;
+    seed: number;
+    stop: string;
+  };
   "nvidia/nemoguard-jailbreak-detect": Record<string, never>;
   "nvidia/nemotron-3-nano-30b-a3b": {
     temperature: number;
@@ -2525,6 +2551,14 @@ export type ParamsById = {
     "reasoning.effort": "none" | "low" | "medium" | "high" | "xhigh" | "max";
     "reasoning.summary": "auto" | "concise" | "detailed";
     "text.verbosity": "low" | "medium" | "high";
+  };
+  "openai/gpt-6-astra": {
+    max_completion_tokens: number;
+    temperature: number;
+    top_p: number;
+    reasoning_effort: "low" | "medium" | "high";
+    "response_format.type": "text" | "json_schema";
+    tool_choice: "auto" | "none" | "required";
   };
   "openai/gpt-oss-120b": {
     max_completion_tokens: number;
