@@ -1,0 +1,33 @@
+packages/modelparams-python/src/modelparams/_generated/catalog.json
+  s_5041f5a3902226::t_1e78a1ac18f1e5 22707-22793
+packages/modelparams-python/src/modelparams/_generated/model_ids.py
+  s_5041f5a3902226::t_ac992074b404ea 283,692
+packages/modelparams-python/src/modelparams/_generated/registry.py
+  s_5041f5a3902226::t_7ff83853b14cea 308
+packages/modelparams-python/src/modelparams/types/nvidia.py
+  s_5041f5a3902226::t_538a3bd57dcf69 138-152,297
+packages/modelparams/src/generated/data.ts
+  s_5041f5a3902226::t_2962dba85c3d94 22712-22798
+packages/modelparams/src/generated/defaults.ts
+  s_5041f5a3902226::t_3c026e8c6aacda 1367-1374
+packages/modelparams/src/generated/model-ids.ts
+  s_5041f5a3902226::t_c988cb215af6e2 281
+packages/modelparams/src/generated/params-by-id.ts
+  s_5041f5a3902226::t_47fe0ed8c9ac44 2260-2268
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "8ab8f09bc86453caa20ef7be22417012ec953af9",
+  "prompts": {},
+  "sessions": {
+    "s_5041f5a3902226": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6a5e23fa-859e-48fd-8718-e860297da708",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Guillaume Gay <guillaume.gay@protonmail.com>"
+    }
+  }
+}
