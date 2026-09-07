@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://modelparams.dev/api/v1/schema.json
-provider: opencode-go
-authType: subscription
+provider: fireworks
+authType: api_key
 apiSurface: openai-chat-completions
-model: glm-5.3
+model: glm-5p3-flash
+wireId: accounts/fireworks/models/glm-5p3-flash
 params:
   - path: max_tokens
     type: integer
@@ -17,7 +18,7 @@ params:
     description: Controls randomness. Lower values make outputs more focused; higher values make them more varied.
     range:
       min: 0
-      max: 1.9
+      max: 2
       step: 0.1
     group: sampling
   - path: top_p
@@ -35,6 +36,7 @@ params:
     description: Limits token sampling to the top K most likely next tokens.
     range:
       min: 1
+      max: 100
     group: sampling
   - path: presence_penalty
     type: number

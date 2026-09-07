@@ -37,6 +37,10 @@ export const DEFAULTS = {
     "extra_body.top_k": 20,
     "extra_body.enable_thinking": true,
   },
+  "alibaba/kimi-k3": {
+    "extra_body.top_k": 20,
+    "extra_body.enable_thinking": true,
+  },
   "alibaba/qwen-flash": {
     "extra_body.top_k": 20,
     "extra_body.chat_template_kwargs.enable_thinking": true,
@@ -688,6 +692,7 @@ export const DEFAULTS = {
   "fireworks/deepseek-v4-pro-0813": {},
   "fireworks/glm-5p2": {},
   "fireworks/glm-5p3": {},
+  "fireworks/glm-5p3-flash": {},
   "fireworks/gpt-oss-120b": {},
   "fireworks/gpt-oss-20b": {},
   "fireworks/inkling": {},
@@ -960,6 +965,14 @@ export const DEFAULTS = {
     "response_format.type": "text",
   },
   "groq/qwen3.6-27b": {
+    temperature: 1,
+    top_p: 1,
+    frequency_penalty: 0,
+    presence_penalty: 0,
+    reasoning_effort: "default",
+    "response_format.type": "text",
+  },
+  "groq/qwen3.8-27b": {
     temperature: 1,
     top_p: 1,
     frequency_penalty: 0,
@@ -1295,6 +1308,14 @@ export const DEFAULTS = {
     presence_penalty: 0,
     seed: 0,
   },
+  "nvidia/deepseek-v4-pro-0813": {
+    temperature: 0.6,
+    top_p: 0.95,
+    max_tokens: 4096,
+    frequency_penalty: 0,
+    presence_penalty: 0,
+    seed: 0,
+  },
   "nvidia/gliner-pii": {
     threshold: 0.5,
     chunk_length: 384,
@@ -1343,7 +1364,7 @@ export const DEFAULTS = {
     presence_penalty: 0,
     seed: 0,
   },
-  "nvidia/minimax-m3": {
+  "nvidia/muse-glimmer-30b": {
     temperature: 0.6,
     top_p: 0.95,
     max_tokens: 4096,
@@ -1605,6 +1626,12 @@ export const DEFAULTS = {
     "reasoning.effort": "medium",
     "reasoning.summary": "auto",
     "text.verbosity": "medium",
+  },
+  "openai/gpt-6-astra": {
+    temperature: 1,
+    top_p: 1,
+    reasoning_effort: "medium",
+    "response_format.type": "text",
   },
   "openai/gpt-oss-120b": {
     temperature: 1,
