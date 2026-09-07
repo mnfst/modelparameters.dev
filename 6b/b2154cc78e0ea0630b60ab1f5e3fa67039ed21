@@ -1,0 +1,57 @@
+models/alibaba/kimi-k3.yaml
+  s_5041f5a3902226::t_d9c67f7cbd7897 1-55
+models/fireworks/glm-5p3-flash.yaml
+  s_5041f5a3902226::t_5e150112a964a0 1-66
+models/groq/qwen3.8-27b.yaml
+  s_5041f5a3902226::t_e7ffc8ca3de222 1-91
+models/nvidia/deepseek-v4-pro-0813.yaml
+  s_5041f5a3902226::t_121d9bd5d271c4 1-65
+models/nvidia/muse-glimmer-30b.yaml
+  s_5041f5a3902226::t_f482b9aadc863f 1-65
+models/openai/gpt-6-astra.yaml
+  s_5041f5a3902226::t_707e2ea02103a9 1-60
+models/opencode-go/glm-5.3-subscription.yaml
+  s_5041f5a3902226::t_ddebf77aab2e7d 28
+packages/modelparams-python/src/modelparams/_generated/catalog.json
+  s_5041f5a3902226::t_1c15d0376da981 610-685,12906-12994,17359-17479,22160-22246,22740-22741,25330-25408,26128
+packages/modelparams-python/src/modelparams/_generated/model_ids.py
+  s_5041f5a3902226::t_561682c36450ad 15,169,219,275,283,337,423,577,627,683,691,745
+packages/modelparams-python/src/modelparams/_generated/registry.py
+  s_5041f5a3902226::t_2e4e613c739dab 40,194,244,300,308,362
+packages/modelparams-python/src/modelparams/types/alibaba.py
+  s_5041f5a3902226::t_5e8bd4395304df 125-138,612
+packages/modelparams-python/src/modelparams/types/fireworks.py
+  s_5041f5a3902226::t_f5143ada5c818c 103-117,305
+packages/modelparams-python/src/modelparams/types/groq.py
+  s_5041f5a3902226::t_cf8a89423e9a19 103-120,127
+packages/modelparams-python/src/modelparams/types/nvidia.py
+  s_5041f5a3902226::t_9de70626da75d5 28-42,138-139,151,274,282
+packages/modelparams-python/src/modelparams/types/openai.py
+  s_5041f5a3902226::t_5b2c7379ab183e 482-495,663
+packages/modelparams-python/src/modelparams/types/opencode_go.py
+  s_5041f5a3902226::t_4ca91d5e033f6d 48
+packages/modelparams/src/generated/data.ts
+  s_5041f5a3902226::t_d7fcf3478773ba 615-690,12911-12999,17364-17484,22165-22251,22745-22746,25335-25413,26133
+packages/modelparams/src/generated/defaults.ts
+  s_5041f5a3902226::t_f7276f59285379 40-43,695,975-982,1311-1318,1367,1630-1635
+packages/modelparams/src/generated/model-ids.ts
+  s_5041f5a3902226::t_a72f7e92466adb 13,167,217,273,281,335
+packages/modelparams/src/generated/params-by-id.ts
+  s_5041f5a3902226::t_6a639568045ce0 74-81,1234-1242,1697-1708,2198-2206,2260,2537-2544
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "6bb2154cc78e0ea0630b60ab1f5e3fa67039ed21",
+  "prompts": {},
+  "sessions": {
+    "s_5041f5a3902226": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6a5e23fa-859e-48fd-8718-e860297da708",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Guillaume Gay <guillaume.gay@protonmail.com>"
+    }
+  }
+}
