@@ -9,6 +9,7 @@
 
 [![npm version](https://img.shields.io/npm/v/modelparams.svg)](https://www.npmjs.com/package/modelparams)
 [![npm downloads](https://img.shields.io/npm/dm/modelparams.svg)](https://www.npmjs.com/package/modelparams)
+[![PyPI version](https://img.shields.io/pypi/v/modelparams.svg)](https://pypi.org/project/modelparams/)
 [![PyPI downloads](https://img.shields.io/pypi/dm/modelparams.svg)](https://pypi.org/project/modelparams/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
