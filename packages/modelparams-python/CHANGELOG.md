@@ -5,6 +5,13 @@ prepared, and describe the catalog changes a version ships. Versions published
 before this file existed are listed under
 [Releases](https://github.com/mnfst/modelparams.dev/releases).
 
+## 0.0.42
+
+### Models added
+
+- `fireworks/deepseek-v4p1-flash`
+- `nvidia/glm-5.3-flash`
+
 ## 0.0.41
 
 ### Models added
