@@ -67,6 +67,21 @@ Gliner_PiiParams = TypedDict(
 )
 setattr(Gliner_PiiParams, "__pydantic_config__", _PARAMS_CONFIG)
 
+Glm_5_3_FlashParams = TypedDict(
+    "Glm_5_3_FlashParams",
+    {
+        "temperature": Annotated[float, Field(ge=0, le=1)],
+        "top_p": Annotated[float, Field(le=1)],
+        "max_tokens": Annotated[int, Field(ge=1, le=16384)],
+        "frequency_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "presence_penalty": Annotated[float, Field(ge=-2, le=2)],
+        "seed": Annotated[int, Field(ge=0, le=18446744073709552000)],
+        "stop": str,
+    },
+    total=False,
+)
+setattr(Glm_5_3_FlashParams, "__pydantic_config__", _PARAMS_CONFIG)
+
 Gpt_Oss_120bParams = TypedDict(
     "Gpt_Oss_120bParams",
     {
@@ -364,6 +379,7 @@ __all__ = [
     "Deepseek_V4_Pro_0813Params",
     "Gemma_4_31b_ItParams",
     "Gliner_PiiParams",
+    "Glm_5_3_FlashParams",
     "Gpt_Oss_120bParams",
     "Gpt_Oss_20bParams",
     "Kimi_K3Params",
