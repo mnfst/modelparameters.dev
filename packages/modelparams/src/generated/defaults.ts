@@ -1331,6 +1331,14 @@ export const DEFAULTS = {
     overlap: 128,
     flat_ner: false,
   },
+  "nvidia/glm-5.3-flash": {
+    temperature: 0.6,
+    top_p: 0.95,
+    max_tokens: 4096,
+    frequency_penalty: 0,
+    presence_penalty: 0,
+    seed: 0,
+  },
   "nvidia/gpt-oss-120b": {
     temperature: 0.6,
     top_p: 0.95,
